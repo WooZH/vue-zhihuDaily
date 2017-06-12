@@ -23,8 +23,6 @@
 
 <script>
     /* eslint-disable */
-    import version from '../components/version.vue'
-    import loading from '../components/loading-lang.vue'
 
     export default {
         name: 'test',
@@ -35,7 +33,6 @@
             }
         },
         components: {
-            version,loading
         },
         // define methods under the `methods` object
         watch: {

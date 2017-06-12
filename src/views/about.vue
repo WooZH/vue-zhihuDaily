@@ -11,12 +11,10 @@
 
 <script>
 
-  import topBar from '../components/topBar.vue'
 
   export default {
     name: 'test',
     components: {
-      topBar
     },
     // define methods under the `methods` object
     watch: {
